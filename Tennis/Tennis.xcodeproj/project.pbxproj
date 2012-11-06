@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DA80070164989AD0048361F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA8006F164989AD0048361F /* UIKit.framework */; };
+		7DA80072164989AD0048361F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA80071164989AD0048361F /* Foundation.framework */; };
+		7DA80074164989AD0048361F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA80073164989AD0048361F /* CoreGraphics.framework */; };
+		7DA8007A164989AD0048361F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DA80078164989AD0048361F /* InfoPlist.strings */; };
+		7DA8007C164989AD0048361F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8007B164989AD0048361F /* main.m */; };
+		7DA80080164989AD0048361F /* MainViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8007F164989AD0048361F /* MainViewControllerAppDelegate.m */; };
+		7DA80089164989DF0048361F /* TennisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA80087164989DF0048361F /* TennisViewController.m */; };
+		7DA8008A164989DF0048361F /* TennisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA80088164989DF0048361F /* TennisViewController.xib */; };
+		7DA8009016498AA10048361F /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DA8008B16498AA10048361F /* Ball.png */; };
+		7DA8009116498AA10048361F /* court.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DA8008C16498AA10048361F /* court.png */; };
+		7DA8009216498AA10048361F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DA8008D16498AA10048361F /* Default.png */; };
+		7DA8009316498AA10048361F /* Raquet_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DA8008E16498AA10048361F /* Raquet_Green.png */; };
+		7DA8009416498AA10048361F /* Raquet_Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DA8008F16498AA10048361F /* Raquet_Yellow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DA8006B164989AD0048361F /* Tennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA8006F164989AD0048361F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DA80071164989AD0048361F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DA80073164989AD0048361F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DA80077164989AD0048361F /* Tennis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tennis-Info.plist"; sourceTree = "<group>"; };
+		7DA80079164989AD0048361F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DA8007B164989AD0048361F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DA8007D164989AD0048361F /* Tennis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tennis-Prefix.pch"; sourceTree = "<group>"; };
+		7DA8007E164989AD0048361F /* MainViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		7DA8007F164989AD0048361F /* MainViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		7DA80086164989DF0048361F /* TennisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TennisViewController.h; sourceTree = "<group>"; };
+		7DA80087164989DF0048361F /* TennisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TennisViewController.m; sourceTree = "<group>"; };
+		7DA80088164989DF0048361F /* TennisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TennisViewController.xib; sourceTree = "<group>"; };
+		7DA8008B16498AA10048361F /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		7DA8008C16498AA10048361F /* court.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = court.png; sourceTree = "<group>"; };
+		7DA8008D16498AA10048361F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7DA8008E16498AA10048361F /* Raquet_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Raquet_Green.png; sourceTree = "<group>"; };
+		7DA8008F16498AA10048361F /* Raquet_Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Raquet_Yellow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DA80068164989AD0048361F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA80070164989AD0048361F /* UIKit.framework in Frameworks */,
+				7DA80072164989AD0048361F /* Foundation.framework in Frameworks */,
+				7DA80074164989AD0048361F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DA80060164989AD0048361F = {
+			isa = PBXGroup;
+			children = (
+				7DA80075164989AD0048361F /* Tennis */,
+				7DA8006E164989AD0048361F /* Frameworks */,
+				7DA8006C164989AD0048361F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DA8006C164989AD0048361F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DA8006B164989AD0048361F /* Tennis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DA8006E164989AD0048361F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DA8006F164989AD0048361F /* UIKit.framework */,
+				7DA80071164989AD0048361F /* Foundation.framework */,
+				7DA80073164989AD0048361F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DA80075164989AD0048361F /* Tennis */ = {
+			isa = PBXGroup;
+			children = (
+				7DA8007E164989AD0048361F /* MainViewControllerAppDelegate.h */,
+				7DA80086164989DF0048361F /* TennisViewController.h */,
+				7DA8008B16498AA10048361F /* Ball.png */,
+				7DA8008C16498AA10048361F /* court.png */,
+				7DA8008D16498AA10048361F /* Default.png */,
+				7DA8008E16498AA10048361F /* Raquet_Green.png */,
+				7DA8008F16498AA10048361F /* Raquet_Yellow.png */,
+				7DA80087164989DF0048361F /* TennisViewController.m */,
+				7DA80088164989DF0048361F /* TennisViewController.xib */,
+				7DA8007F164989AD0048361F /* MainViewControllerAppDelegate.m */,
+				7DA80076164989AD0048361F /* Supporting Files */,
+			);
+			path = Tennis;
+			sourceTree = "<group>";
+		};
+		7DA80076164989AD0048361F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DA80077164989AD0048361F /* Tennis-Info.plist */,
+				7DA80078164989AD0048361F /* InfoPlist.strings */,
+				7DA8007B164989AD0048361F /* main.m */,
+				7DA8007D164989AD0048361F /* Tennis-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DA8006A164989AD0048361F /* Tennis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DA80083164989AD0048361F /* Build configuration list for PBXNativeTarget "Tennis" */;
+			buildPhases = (
+				7DA80067164989AD0048361F /* Sources */,
+				7DA80068164989AD0048361F /* Frameworks */,
+				7DA80069164989AD0048361F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tennis;
+			productName = Tennis;
+			productReference = 7DA8006B164989AD0048361F /* Tennis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DA80062164989AD0048361F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MainViewController;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Charles Marlon G. Ramones";
+			};
+			buildConfigurationList = 7DA80065164989AD0048361F /* Build configuration list for PBXProject "Tennis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DA80060164989AD0048361F;
+			productRefGroup = 7DA8006C164989AD0048361F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DA8006A164989AD0048361F /* Tennis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DA80069164989AD0048361F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA8007A164989AD0048361F /* InfoPlist.strings in Resources */,
+				7DA8008A164989DF0048361F /* TennisViewController.xib in Resources */,
+				7DA8009016498AA10048361F /* Ball.png in Resources */,
+				7DA8009116498AA10048361F /* court.png in Resources */,
+				7DA8009216498AA10048361F /* Default.png in Resources */,
+				7DA8009316498AA10048361F /* Raquet_Green.png in Resources */,
+				7DA8009416498AA10048361F /* Raquet_Yellow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DA80067164989AD0048361F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA8007C164989AD0048361F /* main.m in Sources */,
+				7DA80080164989AD0048361F /* MainViewControllerAppDelegate.m in Sources */,
+				7DA80089164989DF0048361F /* TennisViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DA80078164989AD0048361F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DA80079164989AD0048361F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DA80081164989AD0048361F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DA80082164989AD0048361F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DA80084164989AD0048361F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tennis/Tennis-Prefix.pch";
+				INFOPLIST_FILE = "Tennis/Tennis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DA80085164989AD0048361F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tennis/Tennis-Prefix.pch";
+				INFOPLIST_FILE = "Tennis/Tennis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DA80065164989AD0048361F /* Build configuration list for PBXProject "Tennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA80081164989AD0048361F /* Debug */,
+				7DA80082164989AD0048361F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DA80083164989AD0048361F /* Build configuration list for PBXNativeTarget "Tennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA80084164989AD0048361F /* Debug */,
+				7DA80085164989AD0048361F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DA80062164989AD0048361F /* Project object */;
+}
